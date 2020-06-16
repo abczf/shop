@@ -16,3 +16,5 @@ Route::get('/', function () {
 });
 //测试
 Route::get('test/index','TestController@index');
+//商品
+Route::any('goods/detail','Goods\GoodsController@detail');//商品详情
